@@ -1,0 +1,28 @@
+{
+  "name": "template-basics",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "adastra dev -s uvy5it-m4.myshopify.com",
+    "build": "adastra build",
+    "preview": "adastra preview",
+    "check": "adastra check",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "@shopify/cli": "latest",
+    "@shopify/theme": "latest",
+    "adastra-cli": "latest",
+    "adastra-plugin": "latest",
+    "adastra-prettier-config": "latest",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "prettier": "^2.8.4",
+    "tailwindcss": "^3.2.7",
+    "vite": "^4.1.4"
+  },
+  "prettier": "adastra-prettier-config",
+  "dependencies": {
+    "alpinejs": "^3.14.9"
+  }
+}
