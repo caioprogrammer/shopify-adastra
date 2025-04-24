@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev": "adastra dev",
+    "dev": "adastra dev -s uvy5it-m4.myshopify.com",
     "build": "adastra build",
     "preview": "adastra preview",
     "check": "adastra check"
@@ -14,6 +14,9 @@
   "devDependencies": {
     "adastra-cli": "latest",
     "adastra-plugin": "latest",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.2.7",
     "vite": "^4.1.4"
   }
 }
