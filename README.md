@@ -1,21 +1,21 @@
-# Adastra Basics Template ✨
+# Adastra Example With Alpine ✨
 
-```bash
-npm create adastra@latest -- --template basics
+```shell
+npm create adastra@latest -- --template odestry/adastra/examples/with-alpine
 ```
 
 Using Yarn/PNPM
 
 ```bash
-yarn create adastra@latest --template basics
-# pnpm create adastra@latest --template basics
+yarn create adastra@latest --template odestry/adastra/examples/with-alpine
+# pnpm create adastra@latest --template odestry/adastra/examples/with-alpine
 ```
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=594116672)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=603560480)
 
 > 🧑‍🚀 **Hey astronaut?** Have fun building Shopify themes with Adastra!
 
-![basics](https://raw.githubusercontent.com/odestry/adastra/main/.github/assets/basics-template-banner.png)
+![with-alpine](https://raw.githubusercontent.com/odestry/adastra/main/.github/assets/minimal-template-banner.png)
 
 ## Launch development server
 
@@ -73,8 +73,6 @@ Inside your Adastra ✨ theme project, you'll see the following folders and file
 │   │   └── index.js
 │   └── hello-world.js
 ├── templates
-├── postcss.config.js
-├── tailwind.config.js
 ├── vite.config.js
 └── package.json
 ```
@@ -114,14 +112,14 @@ All commands are run from the root of the theme project, from a terminal:
 
 ### Other commands
 
-| Command                  | Action                                                                |
-| :----------------------- | :-------------------------------------------------------------------- |
-| `npm install`            | Installs dependencies                                                 |
-| `npm run build`          | Build and minifies your production static files to `./assets/` folder |
-| `npm run preview`        | Preview of your remote development theme, before deploying            |
-| `npm run check`          | Run theme check to lint the theme                                     |
-| `npm run adastra ...`    | Run CLI commands like `adastra dev`, `adastra check`                  |
-| `npm run adastra --help` | Get help using the Adastra CLI                                        |
+| Command                | Action                                           |
+| :--------------------- | :----------------------------------------------- |
+| `npm install`          | Installs dependencies                            |
+| `npm run build`        | Build and minifies your production static files to `./assets/` folder |
+| `npm run preview`      | Preview of your remote development theme, before deploying |
+| `npm run check`        | Run theme check to lint the theme |
+| `npm run adastra ...`    | Run CLI commands like `adastra dev`, `adastra check` |
+| `npm run adastra --help` | Get help using the Adastra CLI |
 
 ## Want to learn more?
 
